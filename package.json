@@ -4,6 +4,7 @@
   "description": "a editor",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack --config webpack.config.js --mode=development -w",
     "build": "webpack --config webpack.config.js --mode=production"
   },
   "author": "",
